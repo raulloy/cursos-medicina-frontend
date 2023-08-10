@@ -40,13 +40,13 @@ function Product(props) {
         </Link>
         <Rating rating={product.rating} numReviews={product.numReviews} />
         <Card.Text>${product.price}</Card.Text>
-        {product.status === 0 ? (
+        {/* {product.status === 0 ? (
           <Button variant="light" disabled>
             Out of stock
           </Button>
         ) : (
           <Button onClick={() => addToCartHandler(product)}>Add to cart</Button>
-        )}
+        )} */}
       </Card.Body>
     </Card>
   );
