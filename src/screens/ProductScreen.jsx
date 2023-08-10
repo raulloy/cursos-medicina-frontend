@@ -145,7 +145,7 @@ function ProductScreen() {
                   </Row>
                 </ListGroup.Item>
 
-                {product.status > 0 && (
+                {/* {product.status > 0 && (
                   <ListGroup.Item>
                     <div className="d-grid">
                       <Button onClick={addToCartHandler} variant="primary">
@@ -153,7 +153,7 @@ function ProductScreen() {
                       </Button>
                     </div>
                   </ListGroup.Item>
-                )}
+                )} */}
 
                 {product.status > 0 && (
                   <ListGroup.Item>
